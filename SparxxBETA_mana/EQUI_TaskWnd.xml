@@ -18,11 +18,6 @@
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>true</Style_Checkbox>
 		<Text />
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_Checkbox</Template>
 	</Button>
 	
@@ -40,14 +35,20 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<Text>Tasks</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
+	</Label>
+	
+	<Label item ="TASK_CountLabel">
+		<ScreenID>TASK_CountLabel</ScreenID>
+		<Font>4</Font>
+		<RelativePosition>true</RelativePosition>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>43</LeftAnchorOffset>
+		<BottomAnchorOffset>24</BottomAnchorOffset>
+		<RightAnchorToLeft>false</RightAnchorToLeft>
+		<Text>0/0</Text>
 	</Label>
 
 	<Label item ="TASK_TaskTimerLabel">
@@ -64,11 +65,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<Text>Request Timer:</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -88,11 +84,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<EQType>132</EQType>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -157,6 +148,7 @@
 		<Style_Border>false</Style_Border>
 		<Style_Sizable>false</Style_Sizable>
 		<Pieces>TASK_TaskLabel</Pieces>
+		<Pieces>TASK_CountLabel</Pieces>
 		<Pieces>TASK_TaskList</Pieces>
 		<Pieces>TASK_TaskTimerLabel</Pieces>
 		<Pieces>TASK_TaskTimer</Pieces>
@@ -177,11 +169,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<Text>Task Progression</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -204,11 +191,6 @@
 		<TooltipReference>This opens the reward window to allow you to preview the reward(s) for this task.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Preview Reward</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item = "TASK_MonsterButton">
@@ -228,11 +210,6 @@
 		<TooltipReference>Select a Monster Mission and click this button to open the monster selection window.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Monster Select</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item = "TASK_AbandonButton">
@@ -252,11 +229,6 @@
 		<TooltipReference>Select a Task and click this button to abandon it.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Remove</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 
@@ -370,11 +342,6 @@
 		<TooltipReference/>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Current Tasks</TabText>
-		<TabTextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TabTextColor>
 		<TabTextActiveColor>
 				<R>255</R>
 				<G>255</G>
@@ -399,11 +366,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<Text>Quest History</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -476,11 +438,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<BottomAnchorToTop>true</BottomAnchorToTop>
 		<Text>Quest Progression</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -572,11 +529,6 @@
 		<TooltipReference/>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Quest History</TabText>
-		<TabTextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TabTextColor>
 		<TabTextActiveColor>
 				<R>255</R>
 				<G>255</G>
@@ -600,11 +552,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
@@ -639,11 +586,6 @@
 		<TooltipReference>Target a player and click this button to add them to your shared task.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Add Player</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 
@@ -664,11 +606,6 @@
 		<TooltipReference>Select a player and click this button to remove them from your shared task.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Remove Player</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 
@@ -689,11 +626,6 @@
 		<TooltipReference>Select a player and click this button to make them the leader of your shared task.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Make Leader</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	
@@ -714,11 +646,6 @@
 		<TooltipReference>Invite anyone who is in your raid but not in your shared task.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Invite Raid</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	
@@ -739,11 +666,6 @@
 		<TooltipReference>Invite anyone who is in your expedition but not in your shared task.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Invite Exped</Text>
-		<TextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 
@@ -760,11 +682,6 @@
 		<TooltipReference/>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Shared Task</TabText>
-		<TabTextColor>
-				<R>255</R>
-				<G>255</G>
-				<B>255</B>
-		</TabTextColor>
 		<TabTextActiveColor>
 				<R>255</R>
 				<G>255</G>
@@ -813,7 +730,7 @@
 		<Text>Quest Journal</Text>
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
-		<DrawTemplate>WDT_RoundedNoTitle</DrawTemplate>
+		<DrawTemplate>WDT_Rounded</DrawTemplate>
 		<Style_Titlebar>true</Style_Titlebar>
 		<Style_Qmarkbox>true</Style_Qmarkbox>
 		<Style_Closebox>true</Style_Closebox>

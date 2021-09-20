@@ -164,11 +164,9 @@
 		<Include>EQUI_BlockedPetBuffWnd.xml</Include> 
 		<Include>EQUI_AuraWnd.xml</Include>
 		<Include>EQUI_SpellDisplay.xml</Include>
-		<Include>EQUI_RewardSelectionWnd.xml</Include>			 
-		<Include>EQUI_HtmlWnd.xml</Include>
+		<Include>EQUI_RewardSelectionWnd.xml</Include>
 		<Include>EQUI_ClaimWnd.xml</Include>
 		<Include>EQUI_LayoutCopyWnd.xml</Include>		
-		<Include>EQUI_VoiceActionBarWnd.xml</Include>
 		<Include>EQUI_MercenaryMerchantWnd.xml</Include>
 		<Include>EQUI_MercenaryManageWnd.xml</Include>
 		<Include>EQUI_MercenaryInfoWnd.xml</Include>
@@ -217,6 +215,7 @@
 		<Include>EQUI_ItemFuseWnd.xml</Include>
 		<Include>EQUI_FactionWnd.xml</Include>
 		<Include>EQUI_OverseerWnd.xml</Include>
+		<Include>EQUI_DragonHoardWnd.xml</Include>
 	</Composite>
 
 	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>

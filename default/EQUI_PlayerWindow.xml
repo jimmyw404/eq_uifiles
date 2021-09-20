@@ -553,20 +553,6 @@
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Style_Tooltip>false</Style_Tooltip>
 	</Label>
-	<Button item="PW_VoiceVolume">
-		<ScreenID>PW_VoiceVolume</ScreenID>
-		<EQType>voicechat/SpeakingIndicator</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Template>BDT_Checkbox</Template>
-		<AutoStretch>true</AutoStretch>
-		<BottomAnchorOffset>15</BottomAnchorOffset>
-		<LeftAnchorOffset>42</LeftAnchorOffset>
-		<RightAnchorOffset>27</RightAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Button>
 	<Button item="PW_GroupRoleTank">
 		<ScreenID>GroupRoleTank</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -721,7 +707,6 @@
 		<Pieces>PW_NewMailIcon</Pieces>
 		<Pieces>PW_ParcelsIcon</Pieces>
 		<Pieces>PW_ParcelsOverLimitIcon</Pieces> 
-		<Pieces>PW_VoiceVolume</Pieces>
 		<Pieces>PW_GroupRoleTank</Pieces>
 		<Pieces>PW_GroupRoleAssist</Pieces>
 		<Pieces>PW_GroupRolePuller</Pieces>

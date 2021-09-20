@@ -383,6 +383,17 @@
 		<Text>Preview</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
+	<Label item="FIW_DragonHoardLabel">
+		<ScreenID>FIW_DragonHoardLabel</ScreenID>
+		<AutoStretch>true</AutoStretch>
+		<LeftAnchorOffset>360</LeftAnchorOffset>
+		<RightAnchorOffset>700</RightAnchorOffset>
+		<TopAnchorOffset>5</TopAnchorOffset>
+		<BottomAnchorOffset>20</BottomAnchorOffset>
+		<Text>Not</Text>
+		<AppendText> searching your Dragon's Hoard</AppendText>
+		<NoWrap>true</NoWrap>
+	</Label>
 	<Button item="FIW_QueryButton">
 		<ScreenID>FIW_QueryButton</ScreenID>
 		<AutoStretch>true</AutoStretch>
@@ -461,6 +472,7 @@
 		<Pieces>FIW_ClassSlotCombobox</Pieces>
 		<Pieces>FIW_ClassSlotLabel</Pieces>
 		<Pieces>FIW_Default</Pieces>
+		<Pieces>FIW_DragonHoardLabel</Pieces>
 		<Pieces>FIW_ItemAugmentCombobox</Pieces>
 		<Pieces>FIW_ItemAugmentLabel</Pieces>
 		<Pieces>FIW_ItemLocationCombobox</Pieces>

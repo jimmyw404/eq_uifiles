@@ -7,7 +7,7 @@
 	<RelativePosition>true</RelativePosition>
 	<Location>
 		<X>10</X>
-		<Y>95</Y>
+		<Y>105</Y>
 	</Location>
 	<Size>
 		<CX>100</CX>
@@ -22,7 +22,7 @@
 	<RelativePosition>true</RelativePosition>
 	<Location>
 		<X>10</X>
-		<Y>95</Y>
+		<Y>105</Y>
 	</Location>
 	<Size>
 		<CX>100</CX>
@@ -50,6 +50,25 @@
 		<!--<SoundUp/>-->
 		<!--<SoundFlyby/>-->
   </Button>
+  
+	<Combobox item="IDW_ItemCompareList">
+		<ScreenID>IDW_ItemCompareList</ScreenID>
+		<DrawTemplate>WDT_Inner</DrawTemplate>
+		<AutoStretchList>true</AutoStretchList>
+		<TooltipReference>Compare stats with equipped items</TooltipReference>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>15</X>
+			<Y>135</Y>
+		</Location>
+		<Size>
+			<CX>250</CX>
+			<CY>20</CY>
+		</Size>
+		<ListHeight>100</ListHeight>
+		<Button>BDT_Combo</Button>
+		<Style_Border>true</Style_Border>
+	</Combobox>
   
   <Button item="IDW_FuseButton">
 		<ScreenID>IDW_FuseButton</ScreenID>
@@ -183,7 +202,7 @@
 	<NoWrap>false</NoWrap>
   </STMLbox>
   
-  <Label item = "IDW_ItemInfo1">
+  <STMLbox item = "IDW_ItemInfo1">
 	<ScreenID>IDW_ItemInfo1</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -196,8 +215,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-   <Label item = "IDW_ItemInfo2">
+	</STMLbox>
+   <STMLbox item = "IDW_ItemInfo2">
 	<ScreenID>IDW_ItemInfo2</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -210,8 +229,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-  <Label item = "IDW_ItemInfo3">
+	</STMLbox>
+  <STMLbox item = "IDW_ItemInfo3">
 	<ScreenID>IDW_ItemInfo3</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -224,8 +243,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-  <Label item = "IDW_ItemInfo4">
+	</STMLbox>
+  <STMLbox item = "IDW_ItemInfo4">
 	<ScreenID>IDW_ItemInfo4</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -238,8 +257,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
- <Label item = "IDW_ItemInfo5">
+	</STMLbox>
+ <STMLbox item = "IDW_ItemInfo5">
 	<ScreenID>IDW_ItemInfo5</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -252,8 +271,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-  <Label item = "IDW_ItemInfo6">
+	</STMLbox>
+  <STMLbox item = "IDW_ItemInfo6">
 	<ScreenID>IDW_ItemInfo6</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -266,8 +285,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-  <Label item = "IDW_ItemInfo7">
+	</STMLbox>
+  <STMLbox item = "IDW_ItemInfo7">
 	<ScreenID>IDW_ItemInfo7</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -280,8 +299,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-  <Label item = "IDW_ItemInfo8">
+	</STMLbox>
+  <STMLbox item = "IDW_ItemInfo8">
 	<ScreenID>IDW_ItemInfo8</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -294,8 +313,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-  <Label item = "IDW_ItemInfo9">
+	</STMLbox>
+  <STMLbox item = "IDW_ItemInfo9">
 	<ScreenID>IDW_ItemInfo9</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -308,8 +327,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-  <Label item = "IDW_ItemInfo10">
+	</STMLbox>
+  <STMLbox item = "IDW_ItemInfo10">
 	<ScreenID>IDW_ItemInfo10</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -322,8 +341,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-  </Label>
-   <Label item = "IDW_ItemInfo11">
+  </STMLbox>
+   <STMLbox item = "IDW_ItemInfo11">
 	<ScreenID>IDW_ItemInfo11</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -336,8 +355,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-	 <Label item = "IDW_ItemInfo12">
+	</STMLbox>
+	 <STMLbox item = "IDW_ItemInfo12">
 	<ScreenID>IDW_ItemInfo12</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -350,8 +369,8 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-	</Label>
-  <Label item = "IDW_ItemInfo13">
+	</STMLbox>
+  <STMLbox item = "IDW_ItemInfo13">
 	<ScreenID>IDW_ItemInfo13</ScreenID>
 	<RelativePosition>true</RelativePosition>
 	<Location>
@@ -364,7 +383,7 @@
 	</Size>
 	<Text></Text>
 	<NoWrap>true</NoWrap>
-  </Label>
+  </STMLbox>
   <Label item = "IDW_Row1Col1Stat">
 	<ScreenID>IDW_Row1Col1Stat</ScreenID>
 	<RelativePosition>true</RelativePosition>
@@ -1928,7 +1947,7 @@
 		<Y>60</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -1958,7 +1977,7 @@
 		<Y>76</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -1988,7 +2007,7 @@
 		<Y>92</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2018,7 +2037,7 @@
 		<Y>108</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2048,7 +2067,7 @@
 		<Y>124</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2078,7 +2097,7 @@
 		<Y>140</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2108,7 +2127,7 @@
 		<Y>156</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2138,7 +2157,7 @@
 		<Y>172</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2168,7 +2187,7 @@
 		<Y>188</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2198,7 +2217,7 @@
 		<Y>204</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2228,7 +2247,7 @@
 		<Y>220</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2258,7 +2277,7 @@
 		<Y>236</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2288,7 +2307,7 @@
 		<Y>252</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2318,7 +2337,7 @@
 		<Y>268</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2348,7 +2367,7 @@
 		<Y>284</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2378,7 +2397,7 @@
 		<Y>300</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2407,7 +2426,7 @@
 		<Y>316</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2436,7 +2455,7 @@
 		<Y>332</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2465,7 +2484,7 @@
 		<Y>348</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2494,7 +2513,7 @@
 		<Y>364</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2523,7 +2542,7 @@
 		<Y>380</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2552,7 +2571,7 @@
 		<Y>396</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2581,7 +2600,7 @@
 		<Y>412</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2610,7 +2629,7 @@
 		<Y>428</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2639,7 +2658,7 @@
 		<Y>444</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -2668,7 +2687,7 @@
 		<Y>460</Y>
 	</Location>
 	<Size>
-		<CX>100</CX>
+		<CX>110</CX>
 		<CY>20</CY>
 	</Size>
 	<Text></Text>
@@ -3397,6 +3416,7 @@
 	<Pieces>IDW_ItemInfo12</Pieces>
 	<Pieces>IDW_ItemInfo13</Pieces>
     <Pieces>IDW_ModButtonLabel</Pieces>
+    <Pieces>IDW_ItemCompareList</Pieces>
     <Pieces>IDW_FuseButtonLabel</Pieces>
     <Pieces>IDW_ConvertButton</Pieces>
     <Pieces>IDW_ConvertButtonLabel</Pieces>

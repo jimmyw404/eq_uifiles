@@ -367,6 +367,23 @@
 		<Text>Shroud Bank</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
+	<Button item="BW_DragonHoard">
+		<ScreenID>DragonHoard</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-4</X>
+			<Y>348</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>40</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button to open your Dragon's Hoard.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Dragon's Hoard</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
 	<Button item="BW_Money0">
 		<ScreenID>BW_Money0</ScreenID>
 		<!--<Font>3</Font>-->
@@ -568,7 +585,7 @@
 		</Location>
 		<Size>
 			<CX>208</CX>
-			<CY>400</CY>
+			<CY>420</CY>
 		</Size>
 		<Text>Bank</Text>
 		<Style_Transparent>false</Style_Transparent>
@@ -609,6 +626,7 @@
 		<Pieces>BW_ChangeButton</Pieces>
 		<Pieces>BW_SharedBankLabel</Pieces>
 		<Pieces>BW_AltStorageButton</Pieces>
+		<Pieces>BW_DragonHoard</Pieces>
 		<Pieces>BW_FindItemButton</Pieces>
 	</Screen>
 </XML>

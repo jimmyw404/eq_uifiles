@@ -14,11 +14,6 @@
 			<CY>40</CY>
 		</Size>
 		<Text>Banker Name</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>false</NoWrap>
 		<AlignCenter>true</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -280,22 +275,12 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>Auto-Bank</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Label item="BW_SharedBankLabel">
 		<ScreenID>BW_SharedBankLabel</ScreenID>
 		<Font>3</Font>
 		<Text>Shared Bank</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Size>
 			<CX>80</CX>
 			<CY>17</CY>
@@ -353,11 +338,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>60000</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -385,11 +365,23 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>Shroud Bank</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
+		<Template>BDT_Normal</Template>
+	</Button>
+	<Button item="BW_DragonHoard">
+		<ScreenID>DragonHoard</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>-4</X>
+			<Y>348</Y>
+		</Location>
+		<Size>
+			<CX>85</CX>
+			<CY>40</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button to open your Dragon's Hoard.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Dragon's Hoard</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BW_Money0">
@@ -409,11 +401,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>60000</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_PlatinumCoin</Template>
 		<DecalOffset>
 			<X>2</X>
@@ -441,11 +428,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>60000</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_GoldCoin</Template>
 		<!--	
 			<SoundPressed/>
@@ -478,11 +460,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>60000</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SilverCoin</Template>
 		<!-- 
 			<SoundPressed/>
@@ -515,11 +492,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>60000</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_CopperCoin</Template>
 		<!-- 
 			<SoundPressed/>
@@ -552,11 +524,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>Change</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BW_DoneButton">
@@ -576,11 +543,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>Done</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="BW_FindItemButton">
@@ -599,11 +561,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Find Item</Text>
 		<NoWrap>true</NoWrap>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<DecalSize>
 			<CX>16</CX>
 			<CY>16</CY>
@@ -628,7 +585,7 @@
 		</Location>
 		<Size>
 			<CX>208</CX>
-			<CY>400</CY>
+			<CY>420</CY>
 		</Size>
 		<Text>Bank</Text>
 		<Style_Transparent>false</Style_Transparent>
@@ -669,6 +626,7 @@
 		<Pieces>BW_ChangeButton</Pieces>
 		<Pieces>BW_SharedBankLabel</Pieces>
 		<Pieces>BW_AltStorageButton</Pieces>
+		<Pieces>BW_DragonHoard</Pieces>
 		<Pieces>BW_FindItemButton</Pieces>
 	</Screen>
 </XML>

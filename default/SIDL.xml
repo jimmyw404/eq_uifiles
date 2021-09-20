@@ -432,10 +432,6 @@
 				<default>24</default>
 			</element>
 		</ElementType>
-		<ElementType name="HtmlComponent">
-			<superType type="Control" />
-			<element name="StartUri" type="string" />
-		</ElementType>
 		<ElementType name="InvSlot">
 			<superType type="Control" />
 			<element name="Background" type="Ui2DAnimation:item" />

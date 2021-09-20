@@ -152,29 +152,7 @@
 			<X>251</X>
 			<Y>216</Y>
 		</Location>
-	</Label>	<Label item="IW_SubscriptionTime">
-		<ScreenID>IW_SubscriptionTime</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Font>2</Font>
-		<EQType>334</EQType>
-		<Location>
-			<X>351</X>
-			<Y>55</Y>
-		</Location>
-		<Size>
-			<CX>54</CX>
-			<CY>42</CY>
-		</Size>
-		<Text>Gold Days Left: 185 days</Text>
-		<TextColor>
-			<R>0</R>
-			<G>255</G>
-			<B>0</B>
-		</TextColor>
-		<NoWrap>false</NoWrap>
-		<AlignCenter>False</AlignCenter>
-		<AlignRight>False</AlignRight>
-	</Label>
+	</Label>	
 	<Button item="IW_UpgradeCharacter">
 		<ScreenID>IW_UpgradeCharacter</ScreenID>
 		<Font>2</Font>
@@ -854,7 +832,7 @@
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
-		<Font>2</Font>
+		<Font>4</Font>
 		<TooltipReference>Available Kronos</TooltipReference>
 	</InvSlot>
 	<InvSlot item="InvSlot23">
@@ -8017,7 +7995,6 @@
 		<Pieces>IW_AltCurr_MaxStackLabel</Pieces>
 		<Pieces>InvSlotKrono</Pieces>
 		<Pieces>IW_ConsumeKrono</Pieces>
-		<Pieces>IW_SubscriptionTime</Pieces>
 		<Pieces>IW_GoodPoints</Pieces>
 		<Pieces>IW_EvilPoints</Pieces>
 		<Pieces>IW_ReclaimButton</Pieces>

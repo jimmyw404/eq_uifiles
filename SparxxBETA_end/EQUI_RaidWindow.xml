@@ -14,11 +14,6 @@
 			<CY>15</CY>
 		</Size>
 		<Text>Players in a Group</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -36,11 +31,6 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Text>0</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -59,11 +49,6 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Text>Players in Raid</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -82,11 +67,6 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Text>0</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -105,11 +85,6 @@
 		<LeftAnchorToLeft>false</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
 		<Text>Raid Level Avg</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>true</AlignRight>
@@ -128,11 +103,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
@@ -175,11 +145,6 @@
 			<Tooltip>Player flagged for expedition</Tooltip>
 			<Heading>Flagged</Heading>
 		</Columns>
-		<Columns>
-			<Width>10</Width>
-			<Tooltip>Voice Chat</Tooltip>
-			<Heading></Heading>
-		</Columns>
 	</Listbox>
 	<Label item="RAID_NotInGroupPlayerListLabel">
 		<ScreenID>RAID_NotInGroupPlayerListLabel</ScreenID>
@@ -195,11 +160,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Text>Players not in a Group</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -217,11 +177,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
@@ -288,11 +243,6 @@
 		<TooltipReference>Raid leader may lock the raid to enable buttons for organizing players into groups.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Lock</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_UnlockButton">
@@ -314,11 +264,6 @@
 		<TooltipReference>Unlock the raid when finished organizing players into groups.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Unlock</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_RemoveLeaderButton">
@@ -340,11 +285,6 @@
 		<TooltipReference>Remove the Group Leader flag from the selected player not in a group.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>RemLeader</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_NoGroupButton">
@@ -366,11 +306,6 @@
 		<TooltipReference>Move the player into the 'Players Not in a Group' list.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>NoGroup</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group1Button">
@@ -392,11 +327,6 @@
 		<TooltipReference>Move the selected player into Group 1.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>1</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group2Button">
@@ -418,11 +348,6 @@
 		<TooltipReference>Move the selected player into Group 2.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>2</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group3Button">
@@ -444,11 +369,6 @@
 		<TooltipReference>Move the selected player into Group 3.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>3</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group4Button">
@@ -470,11 +390,6 @@
 		<TooltipReference>Move the selected player into Group 4.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>4</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group5Button">
@@ -496,11 +411,6 @@
 		<TooltipReference>Move the selected player into Group 5.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>5</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group6Button">
@@ -522,11 +432,6 @@
 		<TooltipReference>Move the selected player into Group 6.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>6</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group7Button">
@@ -548,11 +453,6 @@
 		<TooltipReference>Move the selected player into Group 7.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>7</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group8Button">
@@ -574,11 +474,6 @@
 		<TooltipReference>Move the selected player into Group 8.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>8</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group9Button">
@@ -600,11 +495,6 @@
 		<TooltipReference>Move the selected player into Group 9.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>9</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group10Button">
@@ -626,11 +516,6 @@
 		<TooltipReference>Move the selected player into Group 10.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>10</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group11Button">
@@ -652,11 +537,6 @@
 		<TooltipReference>Move the selected player into Group 11.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>11</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_Group12Button">
@@ -678,11 +558,6 @@
 		<TooltipReference>Move the selected player into Group 12.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>12</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_InviteButton">
@@ -704,11 +579,6 @@
 		<TooltipReference>Select a player and click to invite into the raid</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Invite</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_DisbandButton">
@@ -731,11 +601,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Template>BDT_SmallNormal</Template>
 		<Text>Disband</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Button>
 	<Button item="RAID_AcceptButton">
 		<ScreenID>RAID_AcceptButton</ScreenID>
@@ -756,11 +621,6 @@
 		<TooltipReference>Accept an invitation to raid</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Accept</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<Button item="RAID_DeclineButton">
@@ -783,11 +643,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Template>BDT_SmallNormal</Template>
 		<Text>Decline</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Button>
 	<Button item="RAID_MakeLeaderButton">
 		<ScreenID>RAID_MakeLeaderButton</ScreenID>
@@ -809,11 +664,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Template>BDT_SmallNormal</Template>
 		<Text>MakeLeader</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Button>
 	<Button item="RAID_AddLooterButton">
 		<ScreenID>RAID_AddLooterButton</ScreenID>
@@ -834,11 +684,6 @@
 		<TooltipReference>Add a raid member as a looter</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>AddLooter</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_RemoveLooterButton">
@@ -861,11 +706,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Template>BDT_SmallNormal</Template>
 		<Text>RemLooter</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Button>
 	<Button item="RAID_OptionsButton">
 		<ScreenID>RAID_OptionsButton</ScreenID>
@@ -887,11 +727,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Template>BDT_SmallNormal</Template>
 		<Text>Options</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Button>
 	<Button item="RAID_DumpButton">
 		<ScreenID>RAID_DumpButton</ScreenID>
@@ -913,11 +748,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<Template>BDT_SmallNormal</Template>
 		<Text>Dump</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Button>
 	<Button item="RAID_InviteExpedButton">
 		<ScreenID>RAID_InviteExpedButton</ScreenID>
@@ -938,11 +768,6 @@
 		<TooltipReference>Invite anyone who is in your expedition but not in your raid.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Invite Exped</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_InviteTaskButton">
@@ -964,11 +789,6 @@
 		<TooltipReference>Invite anyone who is in your shared task but not in your raid.</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Invite Task</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_FindPCButton">
@@ -990,11 +810,6 @@
 		<TooltipReference>Find a path to the selected member</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Find PC</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_MasterLooterButton">
@@ -1016,11 +831,6 @@
 		<TooltipReference>Toggle the selected member's Delegate Master Looter flag ("*L*")</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>MstrLooter</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_MainAssistButton">
@@ -1042,11 +852,6 @@
 		<TooltipReference>Toggle the selected member's Delegate Main Assist flag ("A")</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>MainAssist</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Button item="RAID_MarkNPCButton">
@@ -1068,11 +873,6 @@
 		<TooltipReference>Toggle the selected member's Delegate Mark NPC flag ("M")</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>MarkNPC</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>	
 	<Page item="RAID_MemberPage">
@@ -1080,11 +880,6 @@
 		<RelativePosition>false</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Members</TabText>
-		<TabTextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TabTextColor>
 		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>
@@ -1152,11 +947,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Style_Border>true</Style_Border>
 		<Style_VScroll>true</Style_VScroll>
 		<Columns>
@@ -1185,11 +975,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Text>Note:</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1209,11 +994,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 	</Editbox>
 	<Button item="RAID_NoteUpdateButton">
 		<ScreenID>NoteUpdateButton</ScreenID>
@@ -1231,11 +1011,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>Change the selected player's note to the text input (Leader only).</TooltipReference>
 		<Text>Update</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<Label item="RAID_MOTDLabel">
@@ -1251,11 +1026,6 @@
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>true</RightAnchorToLeft>
 		<Text>MOTD:</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<NoWrap>true</NoWrap>
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
@@ -1276,11 +1046,6 @@
 		<BottomAnchorToTop>false</BottomAnchorToTop>
 		<LeftAnchorToLeft>true</LeftAnchorToLeft>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Style_Multiline>true</Style_Multiline>
 	</Editbox>
 	<Button item="RAID_UpdateMOTDButton">
@@ -1299,11 +1064,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<TooltipReference>Update the MOTD for your raid.</TooltipReference>
 		<Text>Update</Text>
-		<TextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TextColor>
 		<Template>BDT_SmallNormal</Template>
 	</Button>
 	<STMLbox item="RAID_MOTDViewer">
@@ -1328,11 +1088,6 @@
 		<RelativePosition>false</RelativePosition>
 		<DrawTemplate>WDT_Def</DrawTemplate>
 		<TabText>Notes</TabText>
-		<TabTextColor>
-			<R>255</R>
-			<G>255</G>
-			<B>255</B>
-		</TabTextColor>
 		<TabTextActiveColor>
 			<R>255</R>
 			<G>255</G>

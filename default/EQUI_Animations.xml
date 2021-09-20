@@ -579,12 +579,6 @@
 			<CY>256</CY>
 		</Size>
 	</TextureInfo>
-	<TextureInfo item="VChat.tga">
-		<Size>
-			<CX>64</CX>
-			<CY>64</CY>
-		</Size>
-	</TextureInfo>
 	<TextureInfo item="grouprole.tga">
 		<Size>
 			<CX>64</CX>
@@ -2349,6 +2343,57 @@
 			</Hotspot>
 		</Frames>
 	</Ui2DAnimation>
+	<Ui2DAnimation item="A_COV">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>288</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_COVHover">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>320</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_COVSelected">
+		<Frames>
+			<Texture>EQ_expansion_logos2.tga</Texture>
+			<Location>
+				<X>128</X>
+				<Y>352</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
 	<Ui2DAnimation item="A_Quarm">
 		<Frames>
 			<Texture>Achievement_hunter_collect_base.tga</Texture>
@@ -2440,6 +2485,57 @@
 			<Location>
 				<X>128</X>
 				<Y>32</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_Overseer">
+		<Frames>
+			<Texture>Achievement_hunter_collect_base.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_OverseerHover">
+		<Frames>
+			<Texture>Achievement_hunter_collect_mouseover.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>64</Y>
+			</Location>
+			<Size>
+				<CX>128</CX>
+				<CY>32</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_OverseerSelected">
+		<Frames>
+			<Texture>Achievement_hunter_collect_selected.tga</Texture>
+			<Location>
+				<X>0</X>
+				<Y>64</Y>
 			</Location>
 			<Size>
 				<CX>128</CX>
@@ -3975,6 +4071,108 @@
 			</Location>
 			<Size>
 				<CX>80</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_FaydwerAgentsSub">
+		<Frames>
+			<Texture>Achievement_subcat_base.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>234</Y>
+			</Location>
+			<Size>
+				<CX>90</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_FaydwerAgentsSubHover">
+		<Frames>
+			<Texture>Achievement_subcat_mouseover.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>234</Y>
+			</Location>
+			<Size>
+				<CX>90</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_FaydwerAgentsSubSelected">
+		<Frames>
+			<Texture>Achievement_subcat_selected.tga</Texture>
+			<Location>
+				<X>80</X>
+				<Y>234</Y>
+			</Location>
+			<Size>
+				<CX>90</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_FaydwerQuestsSub">
+		<Frames>
+			<Texture>Achievement_subcat_base.tga</Texture>
+			<Location>
+				<X>171</X>
+				<Y>234</Y>
+			</Location>
+			<Size>
+				<CX>84</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_FaydwerQuestsSubHover">
+		<Frames>
+			<Texture>Achievement_subcat_mouseover.tga</Texture>
+			<Location>
+				<X>171</X>
+				<Y>234</Y>
+			</Location>
+			<Size>
+				<CX>84</CX>
+				<CY>20</CY>
+			</Size>
+			<Hotspot>
+				<X>0</X>
+				<Y>0</Y>
+			</Hotspot>
+		</Frames>
+	</Ui2DAnimation>
+	<Ui2DAnimation item="A_FaydwerQuestsSubSelected">
+		<Frames>
+			<Texture>Achievement_subcat_selected.tga</Texture>
+			<Location>
+				<X>171</X>
+				<Y>234</Y>
+			</Location>
+			<Size>
+				<CX>84</CX>
 				<CY>20</CY>
 			</Size>
 			<Hotspot>
@@ -18411,89 +18609,6 @@
 			<Size>
 				<CX>98</CX>
 				<CY>24</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item="A_Speaker">
-		<Frames>
-			<Texture>VChat.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>16</CX>
-				<CY>16</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item="A_SpeakerMute">
-		<Frames>
-			<Texture>VChat.tga</Texture>
-			<Location>
-				<X>32</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>16</CX>
-				<CY>16</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item="A_Mic">
-		<Frames>
-			<Texture>VChat.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>16</Y>
-			</Location>
-			<Size>
-				<CX>16</CX>
-				<CY>16</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item="A_MicMute">
-		<Frames>
-			<Texture>VChat.tga</Texture>
-			<Location>
-				<X>16</X>
-				<Y>16</Y>
-			</Location>
-			<Size>
-				<CX>16</CX>
-				<CY>16</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item="A_Kick">
-		<Frames>
-			<Texture>VChat.tga</Texture>
-			<Location>
-				<X>32</X>
-				<Y>16</Y>
-			</Location>
-			<Size>
-				<CX>16</CX>
-				<CY>16</CY>
-			</Size>
-		</Frames>
-	</Ui2DAnimation>
-	<Ui2DAnimation item="A_SpeakingIndicator">
-		<Cycle>true</Cycle>
-		<Grid>true</Grid>
-		<Vertical>false</Vertical>
-		<CellHeight>16</CellHeight>
-		<CellWidth>16</CellWidth>
-		<Frames>
-			<Texture>VChat.tga</Texture>
-			<Location>
-				<X>0</X>
-				<Y>0</Y>
-			</Location>
-			<Size>
-				<CX>64</CX>
-				<CY>64</CY>
 			</Size>
 		</Frames>
 	</Ui2DAnimation>

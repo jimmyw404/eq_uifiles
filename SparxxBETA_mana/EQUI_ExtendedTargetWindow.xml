@@ -39,8 +39,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>42</EQType>
@@ -236,8 +236,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>43</EQType>
@@ -417,8 +417,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>44</EQType>
@@ -598,8 +598,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>45</EQType>
@@ -779,8 +779,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>46</EQType>
@@ -960,8 +960,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>47</EQType>
@@ -969,7 +969,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>12</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -1141,8 +1141,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>48</EQType>
@@ -1150,7 +1150,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>12</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -1322,8 +1322,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>49</EQType>
@@ -1331,7 +1331,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>12</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -1503,8 +1503,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>50</EQType>
@@ -1512,7 +1512,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>12</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -1684,8 +1684,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>51</EQType>
@@ -1693,7 +1693,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>12</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -1865,8 +1865,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>52</EQType>
@@ -1874,7 +1874,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>12</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -2046,8 +2046,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>53</EQType>
@@ -2055,7 +2055,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>12</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -2227,8 +2227,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>200</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>54</EQType>
@@ -2236,7 +2236,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>12</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -2399,8 +2399,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>220</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>55</EQType>
@@ -2408,7 +2408,7 @@
       <Fill>A_GaugeFill</Fill>
       <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
       <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-      <Background>A_RedGaugeBackground</Background>
+      <Background>A_GaugeBackground</Background>
     </GaugeDrawTemplate>
     <GaugeOffsetY>15</GaugeOffsetY>
     <AutoStretch>true</AutoStretch>
@@ -2549,8 +2549,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>220</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>56</EQType>
@@ -2699,8 +2699,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>220</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>57</EQType>
@@ -2849,8 +2849,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>220</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>58</EQType>
@@ -2999,8 +2999,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>220</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>59</EQType>
@@ -3149,8 +3149,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>220</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>60</EQType>
@@ -3299,8 +3299,8 @@
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <FillTint>
-      <R>0</R>
-      <G>200</G>
+      <R>220</R>
+      <G>0</G>
       <B>0</B>
     </FillTint>
     <EQType>61</EQType>

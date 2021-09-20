@@ -711,71 +711,6 @@
 		<Style_Checkbox>false</Style_Checkbox>
 		<ButtonDrawTemplate />
 	</Button>
-	<Button item="GW_Voice1">
-		<EQType>voicechat/GroupActivityButton 0</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Template>BDT_Checkbox</Template>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>2</TopAnchorOffset>
-		<BottomAnchorOffset>17</BottomAnchorOffset>
-		<LeftAnchorOffset>15</LeftAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Button>
-	<Button item="GW_Voice2">
-		<EQType>voicechat/GroupActivityButton 1</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Template>BDT_Checkbox</Template>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>43</TopAnchorOffset>
-		<BottomAnchorOffset>58</BottomAnchorOffset>
-		<LeftAnchorOffset>15</LeftAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Button>
-	<Button item="GW_Voice3">
-		<EQType>voicechat/GroupActivityButton 2</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Template>BDT_Checkbox</Template>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>84</TopAnchorOffset>
-		<BottomAnchorOffset>99</BottomAnchorOffset>
-		<LeftAnchorOffset>15</LeftAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Button>
-	<Button item="GW_Voice4">
-		<EQType>voicechat/GroupActivityButton 3</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Template>BDT_Checkbox</Template>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>125</TopAnchorOffset>
-		<BottomAnchorOffset>140</BottomAnchorOffset>
-		<LeftAnchorOffset>15</LeftAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Button>
-	<Button item="GW_Voice5">
-		<EQType>voicechat/GroupActivityButton 4</EQType>
-		<RelativePosition>true</RelativePosition>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<Template>BDT_Checkbox</Template>
-		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>166</TopAnchorOffset>
-		<BottomAnchorOffset>181</BottomAnchorOffset>
-		<LeftAnchorOffset>15</LeftAnchorOffset>
-		<LeftAnchorToLeft>false</LeftAnchorToLeft>
-		<RightAnchorToLeft>false</RightAnchorToLeft>
-	</Button>
 	<Button item="GW_GroupRoleTank1">
 		<ScreenID>GroupRoleTank1</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -1302,11 +1237,6 @@
 		<Pieces>GW_HPLabel5</Pieces>
 		<Pieces>GW_HPPercLabel5</Pieces>
 		<Pieces>GW_LFGButton</Pieces>
-		<Pieces>GW_Voice1</Pieces>
-		<Pieces>GW_Voice2</Pieces>
-		<Pieces>GW_Voice3</Pieces>
-		<Pieces>GW_Voice4</Pieces>
-		<Pieces>GW_Voice5</Pieces>
 		<Pieces>GW_GroupRoleTank1</Pieces>
 		<Pieces>GW_GroupRoleAssist1</Pieces>
 		<Pieces>GW_GroupRolePuller1</Pieces>

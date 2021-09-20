@@ -558,7 +558,7 @@
 			<X>25</X>
 		</Location>
 		<Size>
-			<CX>80</CX>
+			<CX>112</CX>
 			<CY>20</CY>
 		</Size>
 		<Text>Attribute</Text>
@@ -583,7 +583,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Layout>OW_LayoutResizeV</Layout>
 		<Size>
-			<CX>105</CX>
+			<CX>112</CX>
 			<CY>30</CY>
 		</Size>
 		<RightAnchorToLeft>false</RightAnchorToLeft>
@@ -1383,6 +1383,7 @@
 		</Size>
 		<AlignRight>true</AlignRight>
 		<Text>0/0</Text>
+		<TooltipReference>This count does not include any active conversion quests</TooltipReference>
 	</Label>
 
 	<Label item="OW_QSP_StatsQuestsCompleteLabel">
@@ -2479,6 +2480,7 @@
 			<CY>40</CY>
 		</Size>
 		<PrependText>Max Active Quests: </PrependText>
+		<TooltipReference>This count does not include any active conversion quests</TooltipReference>
 	</Label>
 
 	<Listbox item="OW_AQP_QuestList">
@@ -2514,6 +2516,7 @@
 		<Pieces>OW_AQP_CompletedLabel</Pieces>
 		<Pieces>OW_AQP_CountLabel</Pieces>
 		<Pieces>Listbox:OW_AQP_QuestList</Pieces>
+		<TooltipReference>These counts do not include any active/completed conversion quests</TooltipReference>
 	</Screen>
 
 	<VerticalLayoutBox item="OW_AQP_RightPane">

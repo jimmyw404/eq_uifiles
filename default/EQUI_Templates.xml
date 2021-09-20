@@ -2528,6 +2528,24 @@
 		<Disabled>A_VSBDownDisabled</Disabled>
 		<PressedFlyby>A_VSBDownPressedFlyby</PressedFlyby>
 	</ButtonDrawTemplate>
+	<FrameTemplate item="FT_DefPageBorderHighlight">
+		<TopLeft>A_TabFrameTopLeft</TopLeft>
+		<Top>A_TabFrameTop</Top>
+		<TopRight>A_TabFrameTopRight</TopRight>
+		<RightTop>A_HighlightRight</RightTop>
+		<Right>A_HighlightRight</Right>
+		<RightBottom>A_HighlightRight</RightBottom>
+		<BottomRight>A_HighlightBottomRight</BottomRight>
+		<Bottom>A_HighlightBottom</Bottom>
+		<BottomLeft>A_HighlightBottomLeft</BottomLeft>
+		<LeftTop>A_HighlightLeft</LeftTop>
+		<Left>A_HighlightLeft</Left>
+		<LeftBottom>A_HighlightLeft</LeftBottom>
+		<OverlapLeft>0</OverlapLeft>
+		<OverlapTop>0</OverlapTop>
+		<OverlapRight>0</OverlapRight>
+		<OverlapBottom>0</OverlapBottom>
+	</FrameTemplate>
 	<FrameTemplate item="Header_Listbox">
 		<Right>A_ListHeaderRight</Right>
 		<Left>A_ListHeaderLeft</Left>

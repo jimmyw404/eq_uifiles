@@ -145,11 +145,6 @@
 			<Tooltip>Player flagged for expedition</Tooltip>
 			<Heading>Flagged</Heading>
 		</Columns>
-		<Columns>
-			<Width>10</Width>
-			<Tooltip>Voice Chat</Tooltip>
-			<Heading></Heading>
-		</Columns>
 	</Listbox>
 	<Label item="RAID_NotInGroupPlayerListLabel">
 		<ScreenID>RAID_NotInGroupPlayerListLabel</ScreenID>

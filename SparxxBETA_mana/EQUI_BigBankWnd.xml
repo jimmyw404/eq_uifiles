@@ -919,6 +919,23 @@
     </ButtonDrawTemplate>
     <Font>2</Font>
   </Button>
+	<Button item="BIGB_DragonHoard">
+		<ScreenID>DragonHoard</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>2</X>
+			<Y>836</Y>
+		</Location>
+		<Size>
+			<CX>80</CX>
+			<CY>30</CY>
+		</Size>
+		<Style_Transparent>false</Style_Transparent>
+		<TooltipReference>Click on this button to open your Dragon's Hoard.</TooltipReference>
+		<Style_Checkbox>false</Style_Checkbox>
+		<Text>Dragon's Hoard</Text>
+		<Template>BDT_Normal</Template>
+	</Button>
   <Screen item="BigBankWnd">
     <!--<ScreenID/>-->
     <!--<Font/>-->
@@ -929,7 +946,7 @@
     </Location>
     <Size>
       <CX>94</CX>
-      <CY>848</CY>
+      <CY>878</CY>
     </Size>
     <Text>Sparxx - Bank</Text>
     <Style_Transparent>false</Style_Transparent>
@@ -981,7 +998,8 @@
     <Pieces>BIGB_ChangeButton</Pieces>
     <Pieces>BIGB_SharedBankLabel</Pieces>
     <Pieces>BIGB_AltStorageButton</Pieces>
-	<Pieces>BIGB_FindItemButton</Pieces>
+    <Pieces>BIGB_FindItemButton</Pieces>
+    <Pieces>BIGB_DragonHoard</Pieces>
     <Font>2</Font>
   </Screen>
 </XML>

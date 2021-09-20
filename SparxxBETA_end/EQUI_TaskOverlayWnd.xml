@@ -45,11 +45,11 @@
 		<ScreenID>TO_TaskStepStatus</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>225</X>
+			<X>200</X>
 			<Y>0</Y>
 		</Location>
 		<Size>
-			<CX>35</CX>
+			<CX>55</CX>
 			<CY>16</CY>
 		</Size>
 		<Text></Text>
@@ -161,8 +161,8 @@
 		<RelativePosition>true</RelativePosition>
 		<ScreenID>TO_TaskList</ScreenID>
 		<Size>
-			<CX>260</CX>
-			<CY>300</CY>
+			<CX>285</CX>
+			<CY>290</CY>
 		</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Style_TransparentControl>true</Style_TransparentControl>
@@ -182,7 +182,7 @@
 			<Y>65</Y>
 		</Location>
 		<Size>
-			<CX>270</CX>
+			<CX>300</CX>
 			<CY>300</CY>
 		</Size>
 		<Style_VScroll>true</Style_VScroll>

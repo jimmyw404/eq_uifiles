@@ -61,50 +61,23 @@
 		</Size>
 		<Animation>A_DividerMiddle</Animation>
 	</StaticAnimation>
-	<Label item="EbonShardsLabel">
-		<ScreenID>EbonShardsLabel</ScreenID>
-		<Font>2</Font>
-		<Text>Ebon Crystals</Text>
-		<Size>
-			<CX>95</CX>
-			<CY>17</CY>
-		</Size>
-		<AlignCenter>false</AlignCenter>
-		<Location>
-			<X>303</X>
-			<Y>47</Y>
-		</Location>
-	</Label>
-	<Label item="RadiantShardsLabel">
-		<ScreenID>RadiantShardsLabel</ScreenID>
-		<Font>2</Font>
-		<Text>Radiant Crystals</Text>
-		<Size>
-			<CX>93</CX>
-			<CY>19</CY>
-		</Size>
-		<AlignCenter>false</AlignCenter>
-		<Location>
-			<X>303</X>
-			<Y>1</Y>
-		</Location>
-	</Label>
 	<Button item="IW_ReclaimButton">
 		<ScreenID>IW_ReclaimButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>303</X>
-			<Y>92</Y>
+			<Y>61</Y>
 		</Location>
 		<Size>
-			<CX>71</CX>
+			<CX>108</CX>
 			<CY>25</CY>
 		</Size>
+		<TooltipReference>Reclaim Dragons of Norrath Crystal Currencies</TooltipReference>
 		<Style_VScroll>false</Style_VScroll>
 		<Style_HScroll>false</Style_HScroll>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
-		<Text>Reclaim</Text>
+		<Text>Reclaim Crystals</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
 	<!-- IS_CHARM		1 -->
@@ -322,7 +295,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>210</X>
-			<Y>316</Y>
+			<Y>314</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -360,7 +333,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>123</X>
-			<Y>316</Y>
+			<Y>314</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -379,7 +352,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>166</X>
-			<Y>316</Y>
+			<Y>314</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -398,7 +371,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>166</X>
-			<Y>272</Y>
+			<Y>271</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -417,7 +390,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>210</X>
-			<Y>272</Y>
+			<Y>271</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -513,7 +486,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>253</X>
-			<Y>272</Y>
+			<Y>271</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -532,7 +505,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>253</X>
-			<Y>316</Y>
+			<Y>314</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -551,7 +524,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>123</X>
-			<Y>360</Y>
+			<Y>358</Y>
 		</Location>
 		<Size>
 			<CX>42</CX>
@@ -564,7 +537,7 @@
 		<Style_Transparent>false</Style_Transparent>
 		<!--<TooltipReference/>-->
 	</InvSlot>
-	<!-- root inv slots, IS_B1 to IS_B10 -->
+	<!-- root inv slots, IS_B1 to IS_B11 -->
 	<InvSlot item="InvSlot23">
 		<ScreenID>InvSlot23</ScreenID>
 		<RelativePosition>true</RelativePosition>
@@ -629,41 +602,35 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Equip 32</EQType>
 	</InvSlot>
+	<InvSlot item="InvSlot33">
+		<ScreenID>InvSlot33</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 33</EQType>
+	</InvSlot>
+	<InvSlot item="InvSlot34">
+		<ScreenID>InvSlot34</ScreenID>
+		<RelativePosition>true</RelativePosition>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Equip 34</EQType>
+	</InvSlot>
 	<Button item="IW_ConsumeKrono">
 		<ScreenID>IW_ConsumeKrono</ScreenID>
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>170</X>
-			<Y>360</Y>
+			<Y>358</Y>
 		</Location>
 		<Size>
 			<CX>90</CX>
-			<CY>20</CY>
+			<CY>25</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
 		<Style_Checkbox>false</Style_Checkbox>
 		<Text>Consume Krono</Text>
 		<Template>BDT_Normal</Template>
 	</Button>
-	<Label item="IW_SubscriptionTime">
-		<ScreenID>IW_SubscriptionTime</ScreenID>
-		<RelativePosition>true</RelativePosition>
-		<Font>1</Font>
-		<EQType>334</EQType>
-		<Location>
-			<X>170</X>
-			<Y>385</Y>
-		</Location>
-		<Size>
-			<CX>128</CX>
-			<CY>30</CY>
-		</Size>
-		<Text>Gold Days Left: 185 days</Text>
-		<NoWrap>false</NoWrap>
-		<AlignCenter>false</AlignCenter>
-		<AlignRight>true</AlignRight>
-	</Label>
 	<Button item="IW_UpgradeCharacter">
 		<ScreenID>IW_UpgradeCharacter</ScreenID>
 		<Font>2</Font>
@@ -1674,7 +1641,7 @@
 		<AlignCenter>false</AlignCenter>
 		<AlignRight>false</AlignRight>
 	</Label>
-		<Label item="IW_AltAdvPct">
+	<Label item="IW_AltAdvPct">
 		<ScreenID>AltAdvPct</ScreenID>
         <EQType>27</EQType>
 		<Font>2</Font>
@@ -1747,14 +1714,14 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>303</X>
-			<Y>21</Y>
+			<Y>12</Y>
 		</Location>
 		<Size>
 			<CX>108</CX>
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+		<TooltipReference>Radiant Crystals</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>9999</Text>
@@ -1776,14 +1743,14 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>303</X>
-			<Y>66</Y>
+			<Y>36</Y>
 		</Location>
 		<Size>
 			<CX>108</CX>
 			<CY>24</CY>
 		</Size>
 		<Style_Transparent>false</Style_Transparent>
-		<!--<TooltipReference/>-->
+		<TooltipReference>Ebon Crystals</TooltipReference>
 		<Style_Checkbox>false</Style_Checkbox>
 		<!--<RadioGroup/>-->
 		<Text>9999</Text>
@@ -1805,7 +1772,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>303</X>
-			<Y>121</Y>
+			<Y>87</Y>
 		</Location>
 		<Size>
 			<CX>108</CX>
@@ -1831,7 +1798,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>303</X>
-			<Y>147</Y>
+			<Y>111</Y>
 		</Location>
 		<Size>
 			<CX>108</CX>
@@ -1857,7 +1824,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>303</X>
-			<Y>171</Y>
+			<Y>135</Y>
 		</Location>
 		<Size>
 			<CX>108</CX>
@@ -1883,7 +1850,7 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>303</X>
-			<Y>197</Y>
+			<Y>159</Y>
 		</Location>
 		<Size>
 			<CX>108</CX>
@@ -2020,7 +1987,7 @@
 		<Font>2</Font>
 		<RelativePosition>true</RelativePosition>
 		<Location>
-			<X>316</X>
+			<X>315</X>
 			<Y>447</Y>
 		</Location>
 		<Size>
@@ -2139,11 +2106,11 @@
 		<RelativePosition>true</RelativePosition>
 		<Location>
 			<X>315</X>
-			<Y>230</Y>
+			<Y>185</Y>
 		</Location>
 		<Size>
 			<CX>85</CX>
-			<CY>214</CY>
+			<CY>256</CY>
 		</Size>
 		<Style_Transparent>true</Style_Transparent>
 		<Spacing>1</Spacing>
@@ -2162,6 +2129,8 @@
 		<Pieces>InvSlot30</Pieces>
 		<Pieces>InvSlot31</Pieces>
 		<Pieces>InvSlot32</Pieces>
+		<Pieces>InvSlot33</Pieces>
+		<Pieces>InvSlot34</Pieces>
 	</TileLayoutBox>
 	<Gauge item="IW_VitalityGauge">
 		<ScreenID>VitalityGauge</ScreenID>
@@ -2269,7 +2238,6 @@
 		<Pieces>InvSlotKrono</Pieces>
 		<Pieces>TileLayoutBox:IW_Slots</Pieces>
 		<Pieces>IW_ConsumeKrono</Pieces>
-		<Pieces>IW_SubscriptionTime</Pieces>
 		<Pieces>IW_UpgradeCharacter</Pieces>
 		<Pieces>IW_Money0</Pieces>
 		<Pieces>IW_Money1</Pieces>
@@ -2351,8 +2319,6 @@
 		<Pieces>IW_GoodPoints</Pieces>
 		<Pieces>IW_EvilPoints</Pieces>
 		<Pieces>IW_ReclaimButton</Pieces>
-		<Pieces>RadiantShardsLabel</Pieces>
-		<Pieces>EbonShardsLabel</Pieces>
 		<Pieces>IW_VitalityGauge</Pieces>
 		<Pieces>IW_AAVitalityGauge</Pieces>
 		<Pieces>Inv_Seperator3</Pieces>

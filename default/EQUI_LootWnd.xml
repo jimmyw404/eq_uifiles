@@ -547,6 +547,36 @@
 		<Background>A_RecessedBox</Background>
 		<EQType>inventory/Loot 33</EQType>
 	</InvSlot>
+	<InvSlot item="LW_LootSlot34">
+		<ScreenID>LW_LootSlot34</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>680</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Loot 34</EQType>
+	</InvSlot>
+	<InvSlot item="LW_LootSlot35">
+		<ScreenID>LW_LootSlot35</ScreenID>
+		<!--<Font>3</Font>-->
+		<RelativePosition>true</RelativePosition>
+		<Location>
+			<X>5</X>
+			<Y>680</Y>
+		</Location>
+		<Size>
+			<CX>40</CX>
+			<CY>40</CY>
+		</Size>
+		<Background>A_RecessedBox</Background>
+		<EQType>inventory/Loot 35</EQType>
+	</InvSlot>
 	<Screen item="LW_LootInvWnd">
 		<ScreenID>LootInvWnd</ScreenID>
 		<!--<Font/>-->
@@ -596,6 +626,8 @@
 		<Pieces>LW_LootSlot31</Pieces>
 		<Pieces>LW_LootSlot32</Pieces>
 		<Pieces>LW_LootSlot33</Pieces>
+		<Pieces>LW_LootSlot34</Pieces>
+		<Pieces>LW_LootSlot35</Pieces>
 	</Screen>
 
 	<Button item="LW_DoneButton">

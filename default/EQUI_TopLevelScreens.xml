@@ -36,46 +36,6 @@
 			<ScreenName>MIW_InfoWnd</ScreenName>
 			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
 		</Screens>
-		
-		<Screens>
-			<ScreenName>VoiceActionBar</ScreenName>
-			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
-		</Screens>
-		
-		<Screens> 
-			<ScreenName>VAB_VoiceChannelWindow</ScreenName>
-			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
-		</Screens>
-		
-		<Screens>
-			<ScreenName>VAB_ActiveSpeakerWindow</ScreenName>
-			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
-		</Screens>
-		
-		<Screens>
-			<ScreenName>VAB_IncomingCall</ScreenName>
-			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
-		</Screens>
-		
-		<Screens>
-			<ScreenName>VAB_OutgoingCall</ScreenName>
-			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
-		</Screens>
-		
-		<Screens>
-			<ScreenName>VAB_VoiceVolumeWindow</ScreenName>
-			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
-		</Screens>
-		
-		<Screens>
-			<ScreenName>VAB_ParticipantVoiceVolumeWindow</ScreenName>
-			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
-		</Screens>
-		
-		<Screens>
-			<ScreenName>VAB_ActiveSpeakersWindow</ScreenName>
-			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
-		</Screens>
 	
 	</TopLevelWindowList>
 	

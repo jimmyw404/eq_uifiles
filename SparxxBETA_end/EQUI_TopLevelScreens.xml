@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="us-ascii"?>
-<XML ID="EQInterfaceDefinitionLanguage">
-  <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
-  <!-- The following settings can be set as an attribute to of each window to turn it on
+<?xml version = "1.0"?>
+<XML ID = "EQInterfaceDefinitionLanguage">
+	<Schema xmlns = "EverQuestData" xmlns:dt = "EverQuestDataTypes"/>
+	
+	<!-- The following settings can be set as an attribute to of each window to turn it on
 	     during initialization of the window.
 
 		item="none"
@@ -19,62 +20,23 @@
 		item="all"
 
 	-->
-  <TopLevelWindowList item="GameScreens">
-    <Screens>
-      <ScreenName>MMTW_MerchantWnd</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>MMGW_ManageWnd</ScreenName>
-      <InitialSettings>allbutfirstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>MIW_InfoWnd</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>VoiceActionBar</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>VAB_VoiceChannelWindow</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>VAB_ActiveSpeakerWindow</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>VAB_IncomingCall</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>VAB_OutgoingCall</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>VAB_VoiceVolumeWindow</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>VAB_ParticipantVoiceVolumeWindow</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>VAB_ActiveSpeakersWindow</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>EQUI_SparxxUI</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>MMW_SparxxUI_Switch</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-    <Screens>
-      <ScreenName>MMGW_Sparxx_Merc_Inv_Window</ScreenName>
-      <InitialSettings>allbutvis_and_firstvis</InitialSettings>
-    </Screens>
-  </TopLevelWindowList>
+
+	<TopLevelWindowList item="GameScreens">
+		<Screens>
+			<ScreenName>MMTW_MerchantWnd</ScreenName>
+			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
+		</Screens>
+		
+		<Screens>
+			<ScreenName>MMGW_ManageWnd</ScreenName>
+			<InitialSettings>allbutfirstvis</InitialSettings>
+		</Screens>
+		
+		<Screens>
+			<ScreenName>MIW_InfoWnd</ScreenName>
+			<InitialSettings>allbutvis_and_firstvis</InitialSettings>
+		</Screens>
+	
+	</TopLevelWindowList>
+	
 </XML>
