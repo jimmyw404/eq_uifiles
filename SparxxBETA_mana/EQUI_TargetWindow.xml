@@ -77,6 +77,31 @@
       </Size>
     </Frames>
   </Ui2DAnimation>
+  <Label item="TW_Target Name">
+    <ScreenID>Current_Target_N</ScreenID>
+    <EQType>28</EQType>
+    <Text>Current Target Name</Text>
+    <RelativePosition>true</RelativePosition>
+    <Location>
+      <X>22</X>
+      <Y>0</Y>
+    </Location>
+    <Size>
+      <CX>300</CX>
+      <CY>30</CY>
+    </Size>
+    <Text>0</Text>
+    <TextColor>
+      <R>255</R>
+      <G>0</G>
+      <B>255</B>
+    </TextColor>
+    <NoWrap>true</NoWrap>
+    <AlignCenter>false</AlignCenter>
+    <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+    <Font>5</Font>
+  </Label>
   <StaticAnimation item="A_TargetBoxStaticAnimTop">
     <ScreenID>A_TargetBoxStaticAnimTop</ScreenID>
     <Animation>A_TargetBoxTop</Animation>
@@ -95,8 +120,8 @@
       <Y>-15</Y>
     </Location>
     <Size>
-      <CX>10</CX>
-      <CY>10</CY>
+      <CX>15</CX>
+      <CY>15</CY>
     </Size>
   </StaticAnimation>
   <StaticAnimation item="A_TargetBoxStaticAnimBottom">
@@ -113,39 +138,14 @@
     <LeftAnchorToLeft>true</LeftAnchorToLeft>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Size>
-      <CX>11</CX>
-      <CY>11</CY>
+      <CX>15</CX>
+      <CY>15</CY>
     </Size>
     <Location>
       <X>2</X>
       <Y>2</Y>
     </Location>
   </StaticAnimation>
-  <Label item="TW_Target Name">
-    <ScreenID>Current_Target_N</ScreenID>
-    <EQType>28</EQType>
-    <Text>Current Target Name</Text>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>16</X>
-      <Y>1</Y>
-    </Location>
-    <Size>
-      <CX>117</CX>
-      <CY>14</CY>
-    </Size>
-    <Text>0</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignRight>false</AlignRight>
-    <AlignLeft>false</AlignLeft>
-    <Font>2</Font>
-  </Label>
   <StaticAnimation item="A_TargetBoxStaticAnimLeft">
     <ScreenID>A_TargetBoxStaticAnimLeft</ScreenID>
     <Animation>A_TargetBoxLeft</Animation>
@@ -164,8 +164,8 @@
       <Y>-13</Y>
     </Location>
     <Size>
-      <CX>10</CX>
-      <CY>10</CY>
+      <CX>15</CX>
+      <CY>15</CY>
     </Size>
   </StaticAnimation>
   <StaticAnimation item="A_TargetBoxStaticAnimRight">
@@ -186,8 +186,8 @@
       <Y>-15</Y>
     </Location>
     <Size>
-      <CX>10</CX>
-      <CY>10</CY>
+      <CX>15</CX>
+      <CY>15</CY>
     </Size>
   </StaticAnimation>
   <StaticAnimation item="A_TargetBoxStaticAnimFill">
@@ -206,17 +206,17 @@
       <Y>-14</Y>
     </Location>
     <Size>
-      <CX>10</CX>
-      <CY>10</CY>
+      <CX>15</CX>
+      <CY>15</CY>
     </Size>
   </StaticAnimation>
   <Gauge item="Target_HP">
     <ScreenID>TargetHP</ScreenID>
     <Font>2</Font>
     <TextColor>
-      <R>240</R>
-      <G>240</G>
-      <B>240</B>
+      <R>200</R>
+      <G>200</G>
+      <B>200</B>
     </TextColor>
     <RelativePosition>true</RelativePosition>
     <GaugeOffsetY>-1</GaugeOffsetY>
@@ -226,8 +226,8 @@
     <Style_Transparent>false</Style_Transparent>
     <TooltipReference />
     <FillTint>
-      <R>200</R>
-      <G>0</G>
+      <R>0</R>
+      <G>75</G>
       <B>0</B>
     </FillTint>
     <DrawLinesFill>false</DrawLinesFill>
@@ -247,183 +247,18 @@
     <RightAnchorOffset>4</RightAnchorOffset>
     <RightAnchorToLeft>false</RightAnchorToLeft>
     <Location>
-      <X>2</X>
-      <Y>15</Y>
+      <X>16</X>
+      <Y>-5</Y>
     </Location>
     <Size>
-      <CX>102</CX>
-      <CY>8</CY>
+      <CX>230</CX>
+      <CY>30</CY>
     </Size>
     <Text>Current Target Name</Text>
-    <TextOffsetY>-100</TextOffsetY>
-    <GaugeOffsetX>-3</GaugeOffsetX>
+    <GaugeOffsetY>-5</GaugeOffsetY>
+    <TextOffsetX>-1000</TextOffsetX>
+    <TextOffsetY>-1000</TextOffsetY>
   </Gauge>
-  <Label item="Target_HPLabel">
-    <ScreenID>HPLabel</ScreenID>
-    <EQType>29</EQType>
-    <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
-    <Text>100</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>0</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>17</TopAnchorOffset>
-    <BottomAnchorOffset>29</BottomAnchorOffset>
-    <LeftAnchorOffset>0</LeftAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <RightAnchorOffset>2</RightAnchorOffset>
-    <Location>
-      <X>101</X>
-      <Y>12</Y>
-    </Location>
-    <Size>
-      <CX>21</CX>
-      <CY>12</CY>
-    </Size>
-    <AlignRight>true</AlignRight>
-  </Label>
-  <Label item="Target_HPPercLabel">
-    <ScreenID>HPPercLabel</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
-    <Text>%</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AutoStretch>false</AutoStretch>
-    <TopAnchorOffset>11</TopAnchorOffset>
-    <BottomAnchorOffset>23</BottomAnchorOffset>
-    <LeftAnchorOffset>44</LeftAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <RightAnchorOffset>-20</RightAnchorOffset>
-    <Location>
-      <X>121</X>
-      <Y>12</Y>
-    </Location>
-    <Size>
-      <CX>10</CX>
-      <CY>12</CY>
-    </Size>
-    <AlignRight>true</AlignRight>
-  </Label>
-  <Label item="TW_Target of Target Name">
-    <ScreenID>Current_Target_Of_Target_N</ScreenID>
-    <EQType>135</EQType>
-    <Text>Target Of Target Name</Text>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>138</X>
-      <Y>1</Y>
-    </Location>
-    <Size>
-      <CX>81</CX>
-      <CY>14</CY>
-    </Size>
-    <Text>0</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignRight>false</AlignRight>
-    <AlignLeft>false</AlignLeft>
-    <Font>2</Font>
-  </Label>
-  <Gauge item="TW_Target of Target Hit Points">
-    <ScreenID>Target_of_Target_G</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>140</X>
-      <Y>15</Y>
-    </Location>
-    <Size>
-      <CX>102</CX>
-      <CY>8</CY>
-    </Size>
-    <GaugeOffsetY>-1</GaugeOffsetY>
-    <Style_VScroll>false</Style_VScroll>
-    <Style_HScroll>false</Style_HScroll>
-    <Style_Transparent>false</Style_Transparent>
-    <FillTint>
-      <R>200</R>
-      <G>0</G>
-      <B>0</B>
-    </FillTint>
-    <LinesFillTint>
-      <R>255</R>
-      <G>220</G>
-      <B>220</B>
-    </LinesFillTint>
-    <DrawLinesFill>false</DrawLinesFill>
-    <EQType>27</EQType>
-    <GaugeDrawTemplate>
-      <Background>A_GaugeBackground</Background>
-      <Fill>A_GaugeFill</Fill>
-      <Lines>A_GaugeLines</Lines>
-      <LinesFill>A_GaugeLinesFill</LinesFill>
-      <EndCapLeft>A_GaugeEndCapLeft</EndCapLeft>
-      <EndCapRight>A_GaugeEndCapRight</EndCapRight>
-    </GaugeDrawTemplate>
-    <GaugeOffsetX>-3</GaugeOffsetX>
-    <Font>2</Font>
-    <TextOffsetX>-111</TextOffsetX>
-    <TextOffsetY>-111</TextOffsetY>
-  </Gauge>
-  <Label item="TW_ToT_HP_Percent">
-    <ScreenID>Target_Target_HP_P</ScreenID>
-    <EQType>120</EQType>
-    <Text>100</Text>
-    <RelativePosition>true</RelativePosition>
-    <Location>
-      <X>214</X>
-      <Y>3</Y>
-    </Location>
-    <Size>
-      <CX>22</CX>
-      <CY>14</CY>
-    </Size>
-    <Text>0</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>0</B>
-    </TextColor>
-    <NoWrap>true</NoWrap>
-    <AlignCenter>false</AlignCenter>
-    <AlignRight>true</AlignRight>
-    <AlignLeft>false</AlignLeft>
-    <Font>1</Font>
-  </Label>
-  <Label item="TW_ToT_HP_Percent_Label">
-    <ScreenID>Percent_L</ScreenID>
-    <Font>1</Font>
-    <Text>%</Text>
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <Size>
-      <CX>15</CX>
-      <CY>15</CY>
-    </Size>
-    <AlignCenter>true</AlignCenter>
-    <Location>
-      <X>233</X>
-      <Y>3</Y>
-    </Location>
-  </Label>
   <Button item="Target_Buff0_Button">
     <ScreenID>Buff0</ScreenID>
     <Size>
@@ -2039,234 +1874,6 @@
       <CY>15</CY>
     </DecalSize>
   </Button>
-	<Button item="Target_Buff85_Button">
-		<ScreenID>Buff85</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>	
-	<Button item="Target_Buff86_Button">
-		<ScreenID>Buff86</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff87_Button">
-		<ScreenID>Buff87</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff88_Button">
-		<ScreenID>Buff88</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff89_Button">
-		<ScreenID>Buff89</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff90_Button">
-		<ScreenID>Buff90</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff91_Button">
-		<ScreenID>Buff91</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff92_Button">
-		<ScreenID>Buff92</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff93_Button">
-		<ScreenID>Buff93</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff94_Button">
-		<ScreenID>Buff94</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff95_Button">
-		<ScreenID>Buff95</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>
-	<Button item="Target_Buff96_Button">
-		<ScreenID>Buff96</ScreenID>
-		<Size>
-			<CX>24</CX>
-			<CY>24</CY>
-		</Size>
-		<Style_VScroll>false</Style_VScroll>
-		<Style_HScroll>false</Style_HScroll>
-		<Style_Transparent>false</Style_Transparent>
-		<Style_Checkbox>false</Style_Checkbox>
-		<DecalOffset>
-			<X>2</X>
-			<Y>2</Y>
-		</DecalOffset>
-		<DecalSize>
-			<CX>15</CX>
-			<CY>15</CY>
-		</DecalSize>
-	</Button>	
   <TileLayoutBox item="Target_Buttons">
     <RelativePosition>true</RelativePosition>
     <AutoStretch>true</AutoStretch>
@@ -2364,18 +1971,6 @@
     <Pieces>Target_Buff82_Button</Pieces>
     <Pieces>Target_Buff83_Button</Pieces>
     <Pieces>Target_Buff84_Button</Pieces>
-    <Pieces>Target_Buff85_Button</Pieces>
-    <Pieces>Target_Buff86_Button</Pieces>
-    <Pieces>Target_Buff87_Button</Pieces>
-    <Pieces>Target_Buff88_Button</Pieces>
-    <Pieces>Target_Buff89_Button</Pieces>
-    <Pieces>Target_Buff90_Button</Pieces>
-    <Pieces>Target_Buff91_Button</Pieces>
-    <Pieces>Target_Buff92_Button</Pieces>
-    <Pieces>Target_Buff93_Button</Pieces>
-    <Pieces>Target_Buff94_Button</Pieces>
-    <Pieces>Target_Buff95_Button</Pieces>
-    <Pieces>Target_Buff96_Button</Pieces>
   </TileLayoutBox>
   <Screen item="Target_BuffWindow">
     <ScreenID>BuffWindow</ScreenID>
@@ -2395,92 +1990,10 @@
     <Style_Titlebar>false</Style_Titlebar>
     <Style_Closebox>false</Style_Closebox>
     <Style_Minimizebox>false</Style_Minimizebox>
-    <Style_Border>true</Style_Border>
+    <Style_Border>false</Style_Border>
     <Style_Sizable>false</Style_Sizable>
     <Pieces>TileLayoutBox:Target_Buttons</Pieces>
   </Screen>
-  <Label item="Target_AggroPctPlayerLabel">
-    <ScreenID>Target_AggroPctPlayerLabel</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
-    <Text />
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <EQType>306</EQType>
-    <NoWrap>true</NoWrap>
-    <AutoStretch>False</AutoStretch>
-    <AlignLeft>true</AlignLeft>
-    <TopAnchorOffset>33</TopAnchorOffset>
-    <BottomAnchorOffset>47</BottomAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Location>
-      <X>-16</X>
-      <Y>-16</Y>
-    </Location>
-    <Size>
-      <CX>10</CX>
-      <CY>10</CY>
-    </Size>
-  </Label>
-  <Label item="Target_AggroNameSecondaryLabel">
-    <ScreenID>Target_AggroNameSecondaryLabel</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
-    <Text />
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <EQType>304</EQType>
-    <NoWrap>true</NoWrap>
-    <AutoStretch>False</AutoStretch>
-    <AlignCenter>true</AlignCenter>
-    <TopAnchorOffset>35</TopAnchorOffset>
-    <BottomAnchorOffset>49</BottomAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <LeftAnchorOffset>-15</LeftAnchorOffset>
-    <RightAnchorOffset>14</RightAnchorOffset>
-    <Location>
-      <X>-16</X>
-      <Y>-16</Y>
-    </Location>
-    <Size>
-      <CX>10</CX>
-      <CY>10</CY>
-    </Size>
-  </Label>
-  <Label item="Target_AggroPctSecondaryLabel">
-    <ScreenID>Target_AggroPctSecondaryLabel</ScreenID>
-    <RelativePosition>true</RelativePosition>
-    <Font>2</Font>
-    <Text />
-    <TextColor>
-      <R>255</R>
-      <G>255</G>
-      <B>255</B>
-    </TextColor>
-    <EQType>308</EQType>
-    <NoWrap>true</NoWrap>
-    <AutoStretch>False</AutoStretch>
-    <AlignRight>true</AlignRight>
-    <TopAnchorOffset>35</TopAnchorOffset>
-    <BottomAnchorOffset>49</BottomAnchorOffset>
-    <LeftAnchorOffset>11</LeftAnchorOffset>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <RightAnchorOffset>24</RightAnchorOffset>
-    <Location>
-      <X>-17</X>
-      <Y>-16</Y>
-    </Location>
-    <Size>
-      <CX>10</CX>
-      <CY>10</CY>
-    </Size>
-  </Label>
   <Screen item="TargetWindow">
     <RelativePosition>false</RelativePosition>
     <Location>
@@ -2504,22 +2017,13 @@
     <MinVSize>70</MinVSize>
     <Style_SizableBorderTop>false</Style_SizableBorderTop>
     <Pieces>Target_HP</Pieces>
-    <Pieces>Target_HPLabel</Pieces>
-    <Pieces>Target_HPPercLabel</Pieces>
     <Pieces>A_TargetBoxStaticAnimTop</Pieces>
     <Pieces>A_TargetBoxStaticAnimBottom</Pieces>
     <Pieces>A_TargetBoxStaticAnimLeft</Pieces>
     <Pieces>A_TargetBoxStaticAnimRight</Pieces>
     <Pieces>A_TargetBoxStaticAnimFill</Pieces>
-    <Pieces>Target_AggroPctPlayerLabel</Pieces>
-    <Pieces>Target_AggroNameSecondaryLabel</Pieces>
-    <Pieces>Target_AggroPctSecondaryLabel</Pieces>
     <Pieces>Target_BuffWindow</Pieces>
     <Pieces>TW_Target Name</Pieces>
-    <Pieces>TW_Target of Target Name</Pieces>
-    <Pieces>TW_Target of Target Hit Points</Pieces>
-    <Pieces>TW_ToT_HP_Percent</Pieces>
-    <Pieces>TW_ToT_HP_Percent_Label</Pieces>
     <Font>2</Font>
   </Screen>
 </XML>

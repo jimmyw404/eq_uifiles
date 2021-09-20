@@ -3,21 +3,28 @@
   <Schema xmlns="EverQuestData" xmlns:dt="EverQuestDataTypes" />
   <Gauge item="Casting_Gauge">
     <ScreenID>Gauge</ScreenID>
-    <!--<Font>3</Font> -->
+    <Font>5</Font>
+    <TextColor>
+      <R>240</R>
+      <G>240</G>
+      <B>240</B>
+    </TextColor>
     <RelativePosition>true</RelativePosition>
     <Location>
-      <X>3</X>
-      <Y>19</Y>
+      <X>-10</X>
+      <Y>10</Y>
     </Location>
     <Size>
-      <CX>108</CX>
-      <CY>10</CY>
+      <CX>490</CX>
+      <CY>70</CY>
     </Size>
     <GaugeOffsetY>0</GaugeOffsetY>
+    <TextOffsetX>8</TextOffsetX>
+    <TextOffsetY>1000</TextOffsetY>
     <Style_VScroll>false</Style_VScroll>
     <Style_HScroll>false</Style_HScroll>
     <Style_Transparent>false</Style_Transparent>
-    <!--<TooltipReference/>-->
+    <TooltipReference />
     <FillTint>
       <R>240</R>
       <G>0</G>
@@ -42,38 +49,37 @@
   <Label item="Casting_SpellName">
     <ScreenID />
     <EQType>134</EQType>
-    <Font>2</Font>
+    <Text>Current Target Name</Text>
     <RelativePosition>true</RelativePosition>
-    <AutoStretch>true</AutoStretch>
-    <LeftAnchorOffset>1</LeftAnchorOffset>
-    <TopAnchorOffset>2</TopAnchorOffset>
-    <RightAnchorOffset>-32</RightAnchorOffset>
-    <BottomAnchorOffset>14</BottomAnchorOffset>
-    <TopAnchorToTop>true</TopAnchorToTop>
-    <BottomAnchorToTop>true</BottomAnchorToTop>
-    <LeftAnchorToLeft>true</LeftAnchorToLeft>
-    <RightAnchorToLeft>false</RightAnchorToLeft>
-    <Text />
+    <Location>
+      <X>2</X>
+      <Y>30</Y>
+    </Location>
+    <Size>
+      <CX>300</CX>
+      <CY>30</CY>
+    </Size>
+    <Text>0</Text>
     <TextColor>
-      <R>255</R>
+      <R>0</R>
       <G>255</G>
       <B>255</B>
     </TextColor>
     <NoWrap>true</NoWrap>
-    <AlignCenter>true</AlignCenter>
+    <AlignCenter>false</AlignCenter>
     <AlignRight>false</AlignRight>
+    <AlignLeft>false</AlignLeft>
+    <Font>5</Font>
   </Label>
   <Screen item="CastingWindow">
-    <!--<ScreenID/>-->
-    <!--<Font/>-->
     <RelativePosition>false</RelativePosition>
     <Location>
-      <X>-11290</X>
-      <Y>50</Y>
+      <X>0</X>
+      <Y>0</Y>
     </Location>
     <Size>
-      <CX>1</CX>
-      <CY>1</CY>
+      <CX>490</CX>
+      <CY>80</CY>
     </Size>
     <Text>Casting Time</Text>
     <Style_VScroll>false</Style_VScroll>
@@ -87,5 +93,6 @@
     <Style_Sizable>false</Style_Sizable>
     <Pieces>Casting_Gauge</Pieces>
     <Pieces>Casting_SpellName</Pieces>
+    <Font>5</Font>
   </Screen>
 </XML>
